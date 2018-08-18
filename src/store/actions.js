@@ -1,4 +1,4 @@
-//action提交的是mutation
+// action提交的是mutation
 import * as types from './mutation-types'
 
 export const setLogin = function ({commit}, {isLogin, loginName, Authorization}) {

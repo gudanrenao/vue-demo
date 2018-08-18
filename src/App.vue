@@ -50,7 +50,7 @@
           } else {
             console.log('refreshToken==>操作已超时不再刷新token：' + new Date().toLocaleString())
           }
-        }, 15 * 30 * 1000);
+        }, 15 * 60 * 1000);
       }
     }
   }
@@ -59,7 +59,7 @@
 <style>
   #app {
     font-family: Helvetica, sans-serif;
-    /*text-align: center;*/
+    /*text-align: center; */
     height: 100%;
   }
 
